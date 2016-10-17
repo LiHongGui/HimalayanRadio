@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mDh-0k-Q7A">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="CZs-zi-3Wg">
+            <objects>
+                <viewController id="mDh-0k-Q7A" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wqU-59-j1M"/>
+                        <viewControllerLayoutGuide type="bottom" id="pHG-ck-C6P"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OzG-fB-f4V">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aQ3-yA-gqC">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7dm-Pz-4so" userLabel="vcView">
+                                        <rect key="frame" x="0.0" y="1" width="768" height="1441"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRA-4g-efg">
+                                                <rect key="frame" x="20" y="322" width="347" height="198"/>
+                                                <state key="normal" backgroundImage="finditem_wallspoint"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Gl-Cs-7bZ">
+                                                <rect key="frame" x="20" y="570" width="347" height="198"/>
+                                                <state key="normal" backgroundImage="finditem_newsound"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EAM-eV-q1x">
+                                                <rect key="frame" x="20" y="818" width="347" height="198"/>
+                                                <state key="normal" backgroundImage="finditem_hotpeople"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="whA-5j-bQs">
+                                                <rect key="frame" x="20" y="1061" width="347" height="203"/>
+                                                <state key="normal" backgroundImage="finditem_hotpeople"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MNn-zb-DYH">
+                                                <rect key="frame" x="401" y="74" width="347" height="198"/>
+                                                <state key="normal" backgroundImage="finditem_hotpeople"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eII-2B-ALd">
+                                                <rect key="frame" x="401" y="322" width="347" height="198"/>
+                                                <state key="normal" backgroundImage="finditem_wallspoint"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBG-mL-XOs">
+                                                <rect key="frame" x="401" y="570" width="347" height="198"/>
+                                                <state key="normal" backgroundImage="finditem_newsound"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aue-NU-kTU">
+                                                <rect key="frame" x="401" y="818" width="347" height="198"/>
+                                                <state key="normal" backgroundImage="finditem_hotpeople"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TYl-lm-7MU">
+                                                <rect key="frame" x="401" y="1061" width="347" height="198"/>
+                                                <state key="normal" backgroundImage="finditem_hotpeople"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U2k-tU-OZR" userLabel="showMe">
+                                                <rect key="frame" x="20" y="1301" width="728" height="140"/>
+                                                <state key="normal" backgroundImage="finditem_iwannabehere"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJY-0O-82O">
+                                                <rect key="frame" x="20" y="74" width="347" height="198"/>
+                                                <state key="normal" backgroundImage="finditem_hotpeople"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                            </scrollView>
+                            <view alpha="0.59999999999999998" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CrW-PV-DHd" userLabel="topBar">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="喜马拉雅" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bs8-O6-puR">
+                                        <rect key="frame" x="340" y="19" width="89" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.71527998096446699" green="0.71527998096446699" blue="0.71527998096446699" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view alpha="0.60000002384185791" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GOx-9Y-GcP" userLabel="BottomBar">
+                                <rect key="frame" x="0.0" y="964" width="768" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKV-wI-KHs">
+                                        <rect key="frame" x="0.0" y="0.0" width="70" height="60"/>
+                                        <state key="normal" image="tab_home_n"/>
+                                        <state key="highlighted" image="tab_home_h"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.71527998100000001" green="0.71527998100000001" blue="0.71527998100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="bottomBar" destination="GOx-9Y-GcP" id="Z9N-um-6BH"/>
+                        <outlet property="scrollView" destination="aQ3-yA-gqC" id="6eq-d9-Pam"/>
+                        <outlet property="showMe" destination="U2k-tU-OZR" id="6Dd-Ba-OJb"/>
+                        <outlet property="topBar" destination="CrW-PV-DHd" id="iFS-QD-Vc6"/>
+                        <outlet property="vcView" destination="7dm-Pz-4so" id="iOF-Wy-luv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lud-xN-1g0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="136"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="finditem_hotpeople" width="145" height="145"/>
+        <image name="finditem_iwannabehere" width="300" height="75"/>
+        <image name="finditem_newsound" width="145" height="145"/>
+        <image name="finditem_wallspoint" width="145" height="145"/>
+        <image name="tab_home_h" width="64" height="45"/>
+        <image name="tab_home_n" width="64" height="45"/>
+    </resources>
+</document>
