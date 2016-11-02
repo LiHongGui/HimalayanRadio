@@ -34,7 +34,6 @@
     self.scrollView.delaysContentTouches = YES;
     self.scrollView.canCancelContentTouches = YES;
 
-    UITapGestureRecognizer
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
